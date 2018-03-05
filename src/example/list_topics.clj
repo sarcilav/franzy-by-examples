@@ -1,7 +1,6 @@
 (ns example.list-topics
   (:require [franzy.clients.consumer.client :as consumer]
             [franzy.common.metadata.protocols :as protocols]
-            [franzy.examples.configuration :as config]
             [franzy.serialization.nippy.deserializers :as nippy-deserializers]
             [franzy.serialization.deserializers :as deserializers]))
 
